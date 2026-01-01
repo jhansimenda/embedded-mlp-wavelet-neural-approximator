@@ -61,5 +61,4 @@ The system focuses on **approximating noisy biomedical signals** (such as ECG/EE
 - Approximation error maintained within acceptable limits  
 - Successful real-time implementation on STM32 hardware  
 
----
 
