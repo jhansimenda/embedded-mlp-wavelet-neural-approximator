@@ -1,9 +1,9 @@
 # Neural Network–Based Function Approximator on STM32
 
-## Overview
+##  Overview
 This project implements a **function approximator** using two neural network models:
-Multilayer Perceptron (MLP)
-Wavelet Neural Network (WNN)
+- **Multilayer Perceptron (MLP)**
+- **Wavelet Neural Network (WNN)**
 
 The models are designed, trained, and optimized for deployment on an **STM32 (NUCLEO-F401RE) microcontroller**, demonstrating that **complex neural network–based signal processing can be performed on resource-constrained embedded systems**.
 
@@ -11,7 +11,7 @@ The system focuses on **approximating noisy biomedical signals** (such as ECG/EE
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 - Implement MLP and WNN–based approximation algorithms
 - Optimize neural networks for **embedded execution**
 - Compare approximation accuracy and error performance
@@ -19,7 +19,7 @@ The system focuses on **approximating noisy biomedical signals** (such as ECG/EE
 
 ---
 
-## 🧠 Key Features
+##  Key Features
 - ✔ Neural network–based function approximation  
 - ✔ Noise handling and error estimation  
 - ✔ Optimized memory and computation for STM32  
@@ -28,20 +28,20 @@ The system focuses on **approximating noisy biomedical signals** (such as ECG/EE
 
 ---
 
-## 🛠️ Hardware Requirements
+##  Hardware Requirements
 - **STM32 NUCLEO-F401RE**
 - USB cable for programming and power
 
 ---
 
-## 💻 Software Requirements
+##  Software Requirements
 - **MATLAB** – Wavelet Neural Network modeling & visualization  
 - **DEV C++** – Multilayer Perceptron implementation  
 - **STM32CubeIDE** – Embedded firmware development  
 
 ---
 
-## 🧪 Methodology
+##  Methodology
 1. **Data Generation**
    - Generate mathematical functions with added noise
 2. **Model Training**
@@ -55,7 +55,7 @@ The system focuses on **approximating noisy biomedical signals** (such as ECG/EE
 
 ---
 
-## 📊 Results
+##  Results
 - WNN demonstrated **better noise handling** for biomedical signals  
 - MLP achieved **fast convergence with fewer neurons**
 - Approximation error maintained within acceptable limits  
@@ -63,4 +63,3 @@ The system focuses on **approximating noisy biomedical signals** (such as ECG/EE
 
 ---
 
-## 📂 Project Structure
